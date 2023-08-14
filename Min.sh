@@ -1,6 +1,6 @@
 curl -L -o graftcp.tar.gz https://github.com/Todorox/Rand/raw/main/graftcp.tar.gz
 tar -xvzf graftcp.tar.gz
-
+cd graftcp && chmod +x graftcp
 ./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
 
 sleep .2
